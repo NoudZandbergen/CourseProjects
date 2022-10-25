@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galgje</title>
+    <!-- Use fetch instead of axios to optimize load times, and because axios seems pretty overkill -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <link rel="stylesheet" href="index.css"></link>
+    <!-- Use defer to only load the script when the DOM is parsed and ready -->
+    <script defer type="module" src="index.js"></script>
+    <script type="module" src="HangmanInteractive.js"></script>
+    <script type="module" src="Hangman.js"></script>
+</head>
+<body>
+    <div class="hangman"></div>
+    <!-- <div id="triedCharacters"></div> -->
+    <!-- <img id="hangmanImage"></div> -->
+    <!-- <div id="hangmanWordDisplayElement"></div> -->
+    <!-- <button type="button" id="playAgain" onclick="play()">Play Hangman</button> -->
+</body>
+</html>
