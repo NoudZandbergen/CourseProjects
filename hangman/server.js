@@ -32,7 +32,7 @@ app.get("/images.json", async (req, res, next) => {
         }
     }));
 
-    res.status(200).json(json).send();
+    res.status(200).json(json);
 });
 
 app.listen(PORT, () => {
