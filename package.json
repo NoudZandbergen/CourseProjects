@@ -1,0 +1,18 @@
+{
+  "name": "course-projects",
+  "version": "1.1.0",
+  "description": "I'm following a programming course. These are my implementations of the assignments we're making.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoudZandbergen/CourseProjects.git"
+  },
+  "author": "Noud Zandbergen",
+  "bugs": {
+    "url": "https://github.com/NoudZandbergen/CourseProjects/issues"
+  },
+  "homepage": "https://github.com/NoudZandbergen/CourseProjects#readme",
+  "workspaces": [
+    "calculator",
+    "hangman"
+  ]
+}

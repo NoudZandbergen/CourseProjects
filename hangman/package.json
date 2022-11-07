@@ -1,6 +1,6 @@
 {
-  "name": "galgje2",
-  "version": "1.0.0",
+  "name": "hangman",
+  "version": "1.1.0",
   "description": "A simple express server hosting a simple game of Hangman",
   "main": "server.js",
   "scripts": {
@@ -8,12 +8,23 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "author": "",
+  "author": "Noud Zandbergen",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
   },
   "nodemonConfig": {
-    "ignore": ["static/*"]
-  }
+    "ignore": [
+      "static/*"
+    ]
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "hangman",
+    "game"
+  ]
 }
